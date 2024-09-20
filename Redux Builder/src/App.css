@@ -1,0 +1,46 @@
+
+/* COUNTER */
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.counter {
+  box-shadow: 0 0 10px 0px lightgray;
+}
+
+.counter h1 {
+  font-size: 42px;
+}
+
+.counter-btns button {
+  padding: 10px 50px;
+  border: 2px solid lightgray;
+  font-weight: 600;
+  transition: all .4s;
+}
+
+.counter-btns button:hover {
+  background-color: white;
+}
+
+/* THEME */
+.theme-btns button {
+  padding: 10px 46px;
+  border: 2px solid lightgray;
+  font-weight: 600;
+  transition: all .4s;
+}
+
+.theme-btns button:hover {
+  background-color: white;
+}
+
+.light_theme {
+  color: black;
+  background-color: white;
+}
+
+.dark_theme {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
