@@ -1,0 +1,212 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  width: 240px;
+  height: 27px;
+}
+tr {
+  /* background-color: #f9f9f9; */
+  transition: background-color 0.3s ease;
+}
+
+tr:hover {
+  background-color: #e0f7fa;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* styles.css */
+
+/* Table styling */
+table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+}
+
+thead  th{
+  /* background-color: #f4f7f6; */
+  color:#1D3557;
+  padding: 10px;
+}
+
+tbody tr th {
+  /* background-color: #f4f7f6; Light gray background for all rows */
+  color: #333; /* Darker text co
+  paddinglor */
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+tbody tr,th {
+  background-color: #f4f7f6; /* Light gray background for all rows */
+  color: #333; /* Darker text color */
+  transition: all 0.3s ease;
+}
+
+tbody tr:hover {
+  background-color: #e0e6e6; /* Muted teal background on hover */
+  color: #1D3557; /* Dark navy-blue text on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow on hover for subtle elevation */
+}
+
+tbody tr:hover td {
+  transform: translateX(2px); /* Slightly shifts the row to the right on hover */
+  transition: transform 0.2s ease;
+}
+table{
+  width: 500px;
+}
+
+/* CSS */
+.button-15 {
+  background-image: linear-gradient(#42A1EC, #0070C9);
+  border: 1px solid #0077CC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: auto;
+  white-space: nowrap;
+}
+
+.button-15:disabled {
+  cursor: default;
+  opacity: .3;
+}
+
+.button-15:hover {
+  background-image: linear-gradient(#51A9EE, #147BCD);
+  border-color: #1482D0;
+  text-decoration: none;
+}
+
+.button-15:active {
+  background-image: linear-gradient(#3D94D9, #0067B9);
+  border-color: #006DBC;
+  outline: none;
+}
+
+.button-15:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+  outline: none;
+}
+
+
+/* Style for the form container */
+
+.main {
+  max-width: 400px; /* Maximum width of the form container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Padding around the container */
+  height: 250px;
+  background-color: #f9f9f9; /* Light background color for the form */
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Style for the form element */
+form[data-testid="login-form"] {
+  display: flex; /* Flexbox layout for form elements */
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+/* Style for each form field container */
+form > div {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+/* Style for labels */
+label {
+  display: block; /* Labels take up the full width */
+  margin-bottom: 15px; /* Space between label and input */
+  font-weight: bold; /* Make label text bold */
+  text-align: left;
+  color: #333; /* Dark text color for labels */
+}
+
+/* Style for input fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside the input fields */
+  border: 1px solid #ccc; /* Light border around the input fields */
+  border-radius: 4px; /* Rounded corners for input fields */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-size: 16px; /* Font size for input text */
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  width: 200px;
+  border-radius: 4px; /* Rounded corners for the button */
+  height: 30px;
+  font-size: 16px; /* Font size for button text */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}
+
+/* Style for the "Go Back" link */
+div > a {
+  display: inline-block; /* Inline-block for the link */
+  margin-top: 20px; /* Space above the link */
+  color: #007bff; /* Blue color for the link */
+  text-decoration: none; /* Remove underline from the link */
+  font-weight: bold; /* Make link text bold */
+}
+
+/* Hover effect for the "Go Back" link */
+div > a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+.Card{
+  height: 580px;
+  width: 500px;
+  padding: 20px;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
