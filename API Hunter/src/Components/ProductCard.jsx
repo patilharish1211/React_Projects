@@ -8,12 +8,12 @@ export default function ProductCard({
 }){
     return (
         <tr data-testid="item">
-        <td>{id}</td>
-        <td data-testid="brand">
+        <td style={{textAlign: 'center'}}>{id}</td>
+        <td data-testid="brand" style={{textAlign: 'center'}}>
           <Link to={`/products/${id}`}>{brand}</Link>
         </td>
-        <td data-testid="category">{category}</td>
-        <td data-testid="price">{price}</td>
+        <td style={{textAlign: 'center'}} data-testid="category">{category}</td>
+        <td style={{textAlign: 'center'}} data-testid="price">{price}</td>
       </tr>
     )
 }

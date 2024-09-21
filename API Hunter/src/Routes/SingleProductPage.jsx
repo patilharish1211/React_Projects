@@ -17,7 +17,7 @@ function SingleProductPage(){
       Description()
     },[id])
     return (
-        <div className='Card'  data-testid="products-container" key={data.id}>   
+        <div className='Card' style={{marginTop: '25px'}}  data-testid="products-container" key={data.id}>   
             <div>
                 <h3 data-testid="product-brand">{data.brand}</h3>
             </div>
