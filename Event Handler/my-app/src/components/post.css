@@ -1,0 +1,29 @@
+.post {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 600px;
+  height: 200px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+}
+
+.post:hover {
+  box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
+  transform: scale(1.05);
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.post h1 {
+  font-size: 24px;
+}
+
+.post h3 {
+  font-size: 18px;
+}

@@ -1,0 +1,47 @@
+/* src/Counter.css */
+.counter-container {
+    text-align: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .counter-button, .reset-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .counter-button {
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .reset-button {
+    background-color: #ff4757;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .counter-button:hover, .reset-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .counter-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  

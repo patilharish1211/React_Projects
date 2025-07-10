@@ -1,0 +1,52 @@
+/* Normalize and general reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .email-form
+  {
+    height: 40px;
+    
+    text-align: center;
+  }
+  .pass-form
+  {
+    height: 40px;
+    text-align: center;
+    
+  }
+  .sub-form
+  {
+    height: 40px;
+    width: 80%;
+    color: #BB86FC;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    transition: all 0.8s ease;
+  }
+  .sub-form:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+  }
